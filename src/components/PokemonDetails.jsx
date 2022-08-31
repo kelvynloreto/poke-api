@@ -108,14 +108,11 @@ console.log(locationPokemon);
                   <div onClick={handleInfoLocation} className="header_right-main"> 
                   <h2>location</h2>
                   </div>
-               
-                </div>
-                
-                  
+                </div>  
                 { 
                 toggeInfo?
                 <div className="container-locations">
-             {locationPokemon?.map((location,i)=> i<30 &&<li > {location.location_area.name}</li>)}
+             {locationPokemon?.map((location,i)=> i<30 &&<li> {location.location_area.name}</li>)}
                 </div>
                 
 :<div className='container-moves' >

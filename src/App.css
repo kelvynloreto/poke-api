@@ -1386,5 +1386,9 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: #cdf7b4;
-    gap: 1em;
+    gap: 13px;
+
+}
+.container-locations>li{
+font-size: 13px;
 }
