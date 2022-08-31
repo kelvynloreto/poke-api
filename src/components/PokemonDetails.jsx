@@ -102,12 +102,12 @@ console.log(locationPokemon);
             <div className="right-main">
               <div>
                 <div className="hability-pokemon">
-                  <div onClick={handleInfoAbiliti} className="header_right-main">
+                  <button onClick={handleInfoAbiliti} className="header_right-main">
                 <h2>Movements</h2>
-                  </div>
-                  <div onClick={handleInfoLocation} className="header_right-main"> 
+                  </button>
+                  <button onClick={handleInfoLocation} className="header_right-main"> 
                   <h2>location</h2>
-                  </div>
+                  </button>
                 </div>  
                 { 
                 toggeInfo?

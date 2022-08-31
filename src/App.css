@@ -1356,18 +1356,25 @@ ul {
     align-items: center;
     margin-bottom: 10px;
     color: #ea0101;
+    border: none;
 }
 
 .hability-pokemon {
     display: flex;
     justify-content: space-between;
     padding-right: 15px;
-    transition: transform .5s;
+    transition: transform .5s,color 0.3s,border 0.3s ;
 }
 
 .header_right-main:hover {
     transform: scale(1.03);
-    transition: transform .5s;
+    transition: transform .5s,color 0.3s,border 0.3s ;
+}
+.header_right-main:focus{
+    background-color: rgba(197, 197, 197, 0.561);
+    color: #ffffff;
+    border: solid 2px rgb(0, 204, 255);
+    transition: transform .5s,color 0.3s,border 0.3s ;
 }
 
 .hability-pokemon>h2 {
