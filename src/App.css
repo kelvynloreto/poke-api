@@ -1459,10 +1459,15 @@ font-size: 16px;
     min-width: 180px;
 }
 .right-main{
+    width: auto;
     min-width: 180px;
 }
 .footer-details{
     min-width: 100px;
+}
+.liner_center-main{
+    min-height: none;
+    height: 100%;
 }
 }
 
